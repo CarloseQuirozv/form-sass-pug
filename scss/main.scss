@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+$background: #E5DDD5;
+$backForm: #fff;
+$backInput: #E99242;
+$title: #00BFD6;
+
+* {
+
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+
+body{
+	background: $background;
+	display: flex;
+	min-height: 100vh;
+}
+
+#img{
+	text-align: center;
+}
+
+.formLog {
+	margin: auto;
+	width: 50%;
+	max-width: 300px;
+	background: $backForm;
+	padding: 20px;
+	border: 1px solid rgba(0,0,0,0.2);
+}
+.title {
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	margin-bottom: 20px;
+	color: $title;
+}
+
+input {
+	font-family: 'Roboto', sans-serif;
+	color: #212121;
+	display: block;
+	padding: 8px;
+	width: 90%;
+	margin: 10px auto;
+	background: #A3ECF3;
+	font-size: 20px;
+	border-radius: 15px;
+	border: 0;
+	height: 2em;
+}
+
+input[type="submit"] {
+	background: $title;
+	border: 0;
+	color: $backForm;
+	opacity: 1;
+	cursor: pointer;
+	border-radius: 20px;
+	margin-bottom: 0;
+	font-size: 23px;
+}
+
+input[type="submit"]:hover {
+	opacity: 0.8;
+}
+
+input[type="submit"]:active {
+	transform: scale(0.95);
+}

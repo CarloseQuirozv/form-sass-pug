@@ -1,0 +1,27 @@
+{
+  "name": "form-sass-pug",
+  "version": "1.0.0",
+  "description": "A form with pre-processors HTML &amp; CSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarloseQuirozv/form-sass-pug.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CarloseQuirozv/form-sass-pug/issues"
+  },
+  "homepage": "https://github.com/CarloseQuirozv/form-sass-pug#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-pug": "^4.0.1",
+    "gulp-sass": "^4.0.1",
+    "vinyl-named": "^1.1.0"
+  }
+}
